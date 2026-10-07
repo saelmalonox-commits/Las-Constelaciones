@@ -1,0 +1,10 @@
+{
+  "name": "las-constelaciones",
+  "version": "3.0.0",
+  "private": true,
+  "description": "PWA interactiva para construir, observar, mover, comparar e integrar constelaciones sistémicas, familiares, energéticas y simbólicas.",
+  "scripts": {
+    "test": "node --test tests/*.test.js",
+    "check": "node --check app.js && node --check field-comparison.js && node --check field-interactions.js && node --check field-view.js && node --check gemini-bridge.js"
+  }
+}
